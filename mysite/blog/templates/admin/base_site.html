@@ -1,0 +1,49 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | SGA {% endblock %}
+
+{% block branding %}
+<h1>SGA Item Management</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block pretitle %}{% endblock %}
+
+{% block content_title %}{% endblock %}
+
+{% block extrastyle %}
+
+
+
+<style>
+    #header {
+    background-color: #ffc700;
+    color: #000000;
+    }
+
+    #branding h1 {
+    color: black;
+    font-weight: bold;
+    }
+
+    .module caption{
+    background: black;
+    }
+
+    a.section:visited{
+    color: #ffc700;
+    }
+
+    a:visited{
+    color: black;
+    }
+
+    div.breadcrumbs{
+    background: black;
+    }
+
+
+
+</style>
+{% endblock %}
